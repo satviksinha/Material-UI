@@ -8,10 +8,11 @@ body{
      background-color: rgba(0, 0, 0, 0.87);
      font-family: 'Work Sans', sans-serif;
      font-weight:bold;
-     max-width:100%;
+     width:100vw;
 }
 .right-side{
     display:flex;
+    padding-right: 50px;
 }
 .nav-wrapper > .centre > div{
     position: absolute;
@@ -109,6 +110,8 @@ button:hover{
 }
 .P{
     line-height: 1.5em;
+    transform:scaleX(1.1);
+    font-family: 'Work Sans', sans-serif;
 }
 h4{
     font-size:2.0em;
@@ -356,20 +359,20 @@ text-decoration: none;
     .text-wrapper{
         display:block;
     }
-    .box1{
+    .box1 H{
         text-align: center;
     }
-    .box2{
+    .box2 H{
         text-align: center;
     }
-    .box3{
+    .box3 H{
         text-align: center;
     }
     .container{
         background-image:100vw;
     }
 }
-@media only screen and (max-width:510px){
+@media only screen and (max-width:530px){
     .Dropbox{
         top:350px;
     }
