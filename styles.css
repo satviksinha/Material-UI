@@ -8,6 +8,7 @@ body{
      background-color: rgba(0, 0, 0, 0.87);
      font-family: 'Work Sans', sans-serif;
      font-weight:bold;
+     max-width:100%;
 }
 .right-side{
     display:flex;
@@ -333,8 +334,11 @@ text-decoration: none;
         display: none;
     }
     .form1{
-        width:100%;
-        padding-left:30%;
+        max-width:100%;
+        height:auto;
+    }
+    .wrapped-content{
+        display:block;
     }
     .h{
         padding-top:220px;
@@ -365,9 +369,9 @@ text-decoration: none;
         background-image:100vw;
     }
 }
-@media only screen and (max-width:750px){
+@media only screen and (max-width:510px){
     .Dropbox{
-        top:220px;
+        top:350px;
     }
     .nav-wrapper > .centre > div{
         position:absolute;
