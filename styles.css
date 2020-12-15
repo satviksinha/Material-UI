@@ -74,7 +74,7 @@ button:hover{
     font-family: "Lucida  Handwriting", "Courier New", monospace;
     padding-bottom: 40px;
 }
-.line {
+.line{
     width: 80px;
     height: 4px;
     margin:8px auto 0;
@@ -211,10 +211,12 @@ form{
     font-weight:bold;
 }
 .form1{
-    align-items: inherit;
+    text-align:center;
+    display:block;
+    margin:8px auto 0;
 }
 input[type="text"]{
-    width:100%;
+    width:75%;
 }
 .form-part{
     padding-bottom:20px;
@@ -229,7 +231,7 @@ input[type="submit"]{
     color:white;
     background-color:black;
     font-family: 'Roboto Condensed', sans-serif;
-    width:100%;
+    
 }
 .wrapped-content{
     display:flex;
