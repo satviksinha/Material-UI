@@ -10,6 +10,10 @@ body{
      font-weight:bold;
      width:100vw;
 }
+.onepirate a{
+    text-decoration: none;
+    color:white;
+}
 .right-side{
     display:flex;
     padding-right: 50px;
@@ -206,8 +210,11 @@ form{
     font-size:1.2em;
     font-weight:bold;
 }
+.form1{
+    align-items: inherit;
+}
 input[type="text"]{
-    width:75%;
+    width:100%;
 }
 .form-part{
     padding-bottom:20px;
@@ -218,10 +225,11 @@ input[type="text"]{
     padding-bottom:20px;
 }
 input[type="submit"]{
-    padding:10px 73px;
+    padding:10px 50px;
     color:white;
     background-color:black;
     font-family: 'Roboto Condensed', sans-serif;
+    width:100%;
 }
 .wrapped-content{
     display:flex;
